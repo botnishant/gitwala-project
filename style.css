@@ -14,11 +14,12 @@ ul {
     list-style: none;
 }
 .wrapper{
+    height: 1610px;
     margin: auto;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
     border: 50px white solid;
-    width: 800px;
+    width: 780px;
     border-radius:  20px;
     background-color: white;
     font-family: "Outfit", sans-serif;
@@ -30,6 +31,10 @@ ul {
     border-radius: 20px;
 }
 
+.data{
+    height: 100%;;
+
+}
 body{
     background-color: hsl(30, 54%, 90%);
 
