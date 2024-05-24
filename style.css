@@ -1,3 +1,9 @@
+@font-face {
+    font-family: myFont;
+    src: url(YoungSerif-Regular.ttf);
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -16,6 +22,7 @@ ul {
     border-radius:  20px;
     background-color: white;
     font-family: "Outfit", sans-serif;
+    font-weight: 400;
 }
 .image1{
     width: 100%;
@@ -43,8 +50,12 @@ body{
 .space{
     width: 50%;   
 } 
+h1{
+    font-family: myFont;
+}
 h2{
-    color: hsl(14, 45%, 36%)
+    color: hsl(14, 45%, 36%);
+    font-family: myFont;
 }
 h3{
     color: hsl(332, 51%, 32%);
