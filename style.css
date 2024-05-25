@@ -1,6 +1,7 @@
 @font-face {
     font-family: myFont;
     src: url(YoungSerif-Regular.ttf);
+    /* src: url(/static/Outfit-Black.ttf); */
 }
 
 
@@ -10,24 +11,37 @@
     box-sizing: border-box;
 }
 
+body{
+    /* font-family: myFont; */
+    line-height: 1.4;
+}
+
+.check{
+        position: fixed;
+        top:0;
+        left: 50%;
+        transform: translate(-50%, 0);
+        opacity: 0.5;
+}
+
+.heading p{
+    line-height: 24px;
+}
 ul {
     list-style: none;
 }
 .wrapper{
-    margin: auto;
-    margin-top: 6rem;
-    margin-bottom: 6rem;
-    border: 50px white solid;
-    width: 780px;
-    border-radius:  20px;
+    margin-left: 346px;
+    margin-top: 164px;
+    margin-bottom: 164px;
+    width: 657px;
     background-color: white;
     font-family: "Outfit", sans-serif;
-    font-weight: 400;
 }
 .image1{
     width: 100%;
     overflow: hidden;
-    border-radius: 20px;
+    border-radius:15px;
 }
 
 .data{
@@ -36,7 +50,6 @@ ul {
 }
 body{
     background-color: hsl(30, 54%, 90%);
-
 }
 
 .list{
@@ -54,7 +67,9 @@ body{
 .space{
     width: 50%;   
 } 
-h1{
+.title{
+    line-height: 61px;
+    font-size: 40px;
     font-family: myFont;
     color: hsl(24, 5%, 18%);
 }
